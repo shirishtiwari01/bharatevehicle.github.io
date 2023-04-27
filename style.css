@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+width: 100%;
+height: 100vh;
+background-image: url("cyclesunlight.png");
+background-size: cover;
+background-position: center;
+background-color: black;
+padding: 10px 10%;
+transition: background-image 0.4s;
+}
+nav{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+nav .logo{
+width: 390px;
+cursor: pointer;
+}
+navi.btn{
+text-decoration: none;
+color: black;
+background: #333;
+padding: 15px 50px;
+border-radius: 30px;
+}
+.content{
+margin-top: 10%;
+}
+.content h2{
+color: black;
+font-size: 34px;
+}
+.content h1{
+font-size: 100px;
+color: #222;
+margin-top: -25px;
+}
+.content p{
+max-width: 380px;
+font-weight: 500;
+font-size: 14px;
+color: black;
+}
+.content h3{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+    }
+
+
+
+
+div.slide-up {
+  height: 200px;
+}
+
+div.slide-up p {
+  animation: 0s slide-up;
+  margin-top: 0%;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
+
+.example{
+   position:relative;
+  height: 500px;
+    width: 100%;
+    background: url("C:\Users\tiwar\OneDrive\Desktop\ppp.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.parent {
+  position: relative;
+  bottom: 40;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 20%;
+  left: 45%;
+  border: 1px solid #000000;
+}
+
+.overlay-text{
+  background-color:rgba(255, 255, 255, 0.5);
+  padding:20px;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:12%;
+  top:170px;
+  right:20px;
+}
